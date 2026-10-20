@@ -42,8 +42,3 @@ Thumbs.db
 
 # --- Logs ---
 *.log
-
-# --- Claude / AI assistant files ---
-CLAUDE.md
-AGENTS.md
-.claude/
