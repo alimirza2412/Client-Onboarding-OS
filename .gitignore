@@ -1,0 +1,49 @@
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+!.env.local.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+alembic/versions/__pycache__/
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Infra / local dev ---
+*.local
+docker-compose.override.yml
+.minio/
+pgdata/
+temporal-data/
+
+# Uploaded demo files (local disk storage — see docs/decisions.md)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Claude / AI assistant files ---
+CLAUDE.md
+AGENTS.md
+.claude/
